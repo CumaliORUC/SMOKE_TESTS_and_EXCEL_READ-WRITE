@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="group çalıştırma">
+    <test name="Group ">
+        <groups>
+            <run>
+                <exclude name="decline"></exclude>
+                <include name="accept"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.webTables"></class>
+        </classes>
+    </test>
+
+</suite>

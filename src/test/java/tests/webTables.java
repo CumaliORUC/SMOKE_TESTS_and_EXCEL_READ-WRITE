@@ -28,7 +28,7 @@ public class webTables {
 ○ 5.column daki elementleri konsolda yazdırın.
      */
 
-    @Test
+    @Test (groups = "decline")
         public void table() {
             KoalaResortPage koalaResortPage=new KoalaResortPage();
             koalaResortPage.koalaResortLogin();
@@ -41,7 +41,7 @@ public class webTables {
                 Driver.closeDriver();
 
         }
-    @Test
+    @Test (groups = "accept")
         public void printRow() {
             KoalaResortPage koalaResortPage=new KoalaResortPage();
             koalaResortPage.koalaResortLogin();
@@ -60,7 +60,7 @@ public class webTables {
             ○ table body’sinde bulunan toplam hücre(cell) sayısını bulun.
             ○ Table body’sinde bulunan hücreleri(cells) konsolda yazdırın.
          */
-    @Test
+    @Test (groups = {"decline"," accept"})
         public void printCell() {
                 KoalaResortPage koalaResortPage=new KoalaResortPage();
                 koalaResortPage.koalaResortLogin();
@@ -78,7 +78,7 @@ public class webTables {
         ○ Table body’sinde bulunan sutunlari(column) konsolda yazdırın.
         ○ 5.column daki elementleri konsolda yazdırın.
      */
-    @Test
+    @Test (groups = "decline")
         public void printColumns() {
             KoalaResortPage koalaResortPage=new KoalaResortPage();
             koalaResortPage.koalaResortLogin();

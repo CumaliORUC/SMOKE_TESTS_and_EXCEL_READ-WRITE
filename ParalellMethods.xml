@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Desired Methods">
+    <test name="Methods">
+       <classes>
+           <class name="tests.webTables">
+               <methods> 
+               <exclude name="table"></exclude>
+               </methods>
+           </class>
+           <class name="tests.smokeTests"></class>
+       </classes>
+    </test>
+</suite>

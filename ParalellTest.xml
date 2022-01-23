@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="istenen testler">
+
+    <test name="istenen claslar">
+        <classes>
+            <class name="tests.smokeTests"></class>
+            <class name="tests.hotel_E2E_Test"></class>
+        </classes>
+    </test>
+</suite>
